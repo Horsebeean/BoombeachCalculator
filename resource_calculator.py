@@ -68,3 +68,10 @@ def getResourceDiamondCost(LGPUPtr,a2:int,a3:int,a4:int):
         result = max(1, (v29 >> 6) + (v29 >> 31))
 
     return result
+
+if __name__=="__main__":
+    print("== Resource Calculator ==")
+    print("Press [Ctrl] + [C] to quit.")
+    while(1):
+        diamond_count = bundleTest( int(input("Gold:  ")), int(input("Wood:  ")), int(input("Stone: ")), int(input("Iron:  ")) )
+        print(f"Diamonds: {diamond_count}")
