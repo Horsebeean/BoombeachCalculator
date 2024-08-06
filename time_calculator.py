@@ -1,4 +1,4 @@
-CONST_616 = 16 # 616 是 SPEED_UP_COST_DIVISOR
+CONST_616 = 16 # 616 是 globals.csv 中的 SPEED_UP_COST_DIVISOR
 
 # 不建议将升级/建造时间调至12天以上。
 
